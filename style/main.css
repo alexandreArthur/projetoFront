@@ -45,6 +45,7 @@ img{
     color: white;
     font-weight: bold;
     float:left;
+    text-align: right;
 }
 .header__nav{
     clear: left;
@@ -334,6 +335,16 @@ img{
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 20px;
         
+    }
+
+
+
+
+
+    .content .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
     }
 
 
