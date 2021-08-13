@@ -295,6 +295,10 @@ img{
     color: #63c6ae;
 }
 
+.footer ul i{
+    margin-right: 5px;
+}
+
 /*---------------------------------------footer*/
 /*---------------------------------------Responsivity*/
 @media screen and (min-width: 720px){
@@ -366,6 +370,11 @@ img{
     .footer .container > *{
         margin: 1.5em;
     }
+    .footer .container a{
+        margin: 10px;
+        white-space: nowrap;
+    }
+
 
 } 
     
