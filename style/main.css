@@ -75,9 +75,7 @@ img{
     text-align: center;
     border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
 }
-.header__btnMenu{
 
-}
 /*-------------------------------------header*/
 /*---------------------------------------content*/
 .mainTitle{
@@ -383,3 +381,22 @@ img{
 
 
 /*---------------------------------------Responsivity*/
+
+/*---------------------------------------js on*/
+.js .header{
+    position: fixed;
+    width: 100%;
+}
+
+.js .header__btnMenu{
+    float: right;
+    margin: 1.5em;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+
+
+
+/*---------------------------------------js on*/
