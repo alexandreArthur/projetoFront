@@ -278,6 +278,9 @@ img{
     color: #454e51;
     font-size: 14px;
 }
+.footer h2{
+    text-transform: uppercase;
+}
 .footer__links li{
     list-style: none;
 }
@@ -294,7 +297,7 @@ img{
 
 /*---------------------------------------footer*/
 /*---------------------------------------Responsivity*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 720px){
     .header{
         position: fixed;
     }
@@ -355,6 +358,14 @@ img{
     }
 
 
+
+    .footer .container{
+        display: flex;
+
+    }
+    .footer .container > *{
+        margin: 1.5em;
+    }
 
 } 
     
