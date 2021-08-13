@@ -12,6 +12,7 @@ img{
     margin-left: auto;
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 980px;
 
 }
 .button{
@@ -77,7 +78,7 @@ img{
 
 }
 /*-------------------------------------header*/
-/*---------------------------------------body*/
+/*---------------------------------------content*/
 .mainTitle{
     height: 80vh;
     padding: 40px 20px;
@@ -267,7 +268,7 @@ img{
 
 
 
-/*---------------------------------------body*/
+/*---------------------------------------content*/
 /*---------------------------------------footer*/
 
 .footer{
@@ -321,6 +322,21 @@ img{
     .header__nav a{
         background-color: white;
     }
+
+
+
+
+
+
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        
+    }
+
+
 
 } 
     
