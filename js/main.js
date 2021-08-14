@@ -3,8 +3,9 @@
     $body.classList.remove('no-js');
     $body.classList.add('js');
 
-    var $menuBtn = document.querySelector('.header__btnMenu');
-    $menuBtn.removeAttribute('style');
-
+    var menu = new Menu({
+        container: '.header__nav', toggleBtn: '.header__btnMenu', widthEnabled: 720 
+    });
+    
 
 })()
