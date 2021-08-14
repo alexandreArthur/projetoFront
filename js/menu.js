@@ -11,7 +11,7 @@ function Menu(config){
     var _this = this;
 
     this.btn.removeAttribute('style');
-    closeMenu();
+    //closeMenu();
     if(this.maxWidth){
         window.addEventListener('resize', e =>{
             if(window.innerWidth > _this.maxWidth){
@@ -21,6 +21,9 @@ function Menu(config){
                 closeMenu();
             }
         });
+        if(window.innerWidth <= _this.maxWidth){
+            closeMenu();
+        }
     }
 
     this.btn.addEventListener('click', openOrClose);
