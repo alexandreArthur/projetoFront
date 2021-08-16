@@ -386,6 +386,7 @@ img{
 .js .header{
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .js .header__btnMenu{
@@ -399,6 +400,87 @@ img{
 .js .header__nav{
     transition: max-height 1s;
 }
+
+
+.js .slider{
+    overflow: hidden;
+    color: white;
+}
+.js .slider .slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.js .slider figure{
+    opacity: 0;
+    transition: 1s opacity;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.js .slider figure.show{
+    opacity: 1;
+    position: static;
+
+}
+.js .slider .prev, .js .slider .next{
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.js .slider .prev{
+    left: 10px;
+}
+.js .slider .next{
+    right: 10px;
+}
+
+
+
+
+.js .quote-container{
+    overflow: hidden;
+    color: white;
+}
+.js .quote-container .quote-slideshow{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 450px;
+}
+
+.js .quote-container figure{
+    opacity: 0;
+    transition: 2s opacity;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.js .quote-container figure.show{
+    opacity: 1;
+    position: static;
+
+}
+.js .quote-container .prev, .js .quote-container .next{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.js .quote-container .prev{
+    left: -20px;
+}
+.js .quote-container .next{
+    right: -20px;
+}
+
 
 
 /*---------------------------------------js on*/
